@@ -1,0 +1,35 @@
+
+body {
+    background-image: url(background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jhs-text-shadow-blue-lg {
+    text-shadow: 0 0 30px rgba(148, 191, 255);
+}
+
+.jhs-text-shadow-blue {
+    text-shadow: 0 0 22px rgba(148, 191, 255, 0.84);
+}
+
+.jhs-text-shadow-orange-lg {
+    text-shadow: 0 0 30px rgb(255, 180, 148);
+}
+
+.jhs-text-shadow-orange {
+    text-shadow: 0 0 22px rgba(255, 196, 148, 0.84);
+}
+
+.jhs-text-baseline div {
+    line-height: 35px;
+    display: inline-block;
+    vertical-align: baseline;
+    position: relative;
+}
+
+.jhs-text-baseline .stat_header {
+    bottom: -8px;
+}

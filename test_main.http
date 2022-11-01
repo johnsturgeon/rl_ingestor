@@ -1,0 +1,123 @@
+POST http://127.0.0.1:8822/rl_event/rosterChange
+Content-Type: application/json
+
+{
+    "timestamp": 1666395406,
+    "name": "rosterChange",
+    "data": {
+        "roster": [
+            {
+                "steam_id": 76561198256554270,
+                "score": 0,
+                "goals": 0,
+                "name": "Baguette_Hot",
+                "state": 0,
+                "team_score": 0,
+                "team": 2,
+                "local": 0,
+                "index": 0
+            },
+            {
+                "steam_id": 76561198218638350,
+                "score": 0,
+                "goals": 0,
+                "name": "GoshDarnedHero",
+                "state": 0,
+                "team_score": 0,
+                "team": 2,
+                "local": 1,
+                "index": 1
+            },
+            {
+                "steam_id": 2533274974352373,
+                "score": 0,
+                "goals": 0,
+                "name": "GucciFelix3huna",
+                "state": 0,
+                "team_score": 0,
+                "team": 1,
+                "local": 0,
+                "index": 2
+            }
+        ]
+    },
+    "match_id": "27134458-75c7-4f55-9168-eaa35ff5ccc0"
+}
+
+###
+
+POST http://127.0.0.1:8822/rl_event/playerJoined
+Content-Type: application/json
+
+{
+    "timestamp": 1666395406,
+    "name": "playerJoined",
+    "data": {
+        "steam_id": 2533274974352373,
+        "score": 0,
+        "goals": 0,
+        "name": "GucciFelix3huna",
+        "state": 0,
+        "team_score": 0,
+        "team": 1,
+        "local": 0,
+        "index": 2
+    },
+    "match_id": "27134458-75c7-4f55-9168-eaa35ff5ccc0"
+}
+
+###
+
+POST http://127.0.0.1:8822/rl_event/score
+Content-Type: application/json
+
+{
+    "timestamp": 1666395421,
+    "name": "score",
+    "data": {
+        "steam_id": -6304357161894730000,
+        "score": 10,
+        "goals": 0,
+        "name": "Gooner",
+        "state": 0,
+        "team_score": 0,
+        "team": 1,
+        "local": 0,
+        "index": 1
+    },
+    "match_id": "27134458-75c7-4f55-9168-eaa35ff5ccc0"
+}
+
+###
+
+POST http://127.0.0.1:8822/rl_event/opposingTeamGoal
+Content-Type: application/json
+
+{
+    "timestamp": 1666395422,
+    "name": "opposingTeamGoal",
+    "data": {
+        "steam_id": -6304357161894730000,
+        "score": 112,
+        "goals": 1,
+        "name": "Gooner",
+        "state": 0,
+        "team_score": 1,
+        "team": 1,
+        "local": 0,
+        "index": 1
+    },
+    "match_id": "27134458-75c7-4f55-9168-eaa35ff5ccc0"
+}
+###
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8822/
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8822/rl_event
+Accept: application/json
+
+###

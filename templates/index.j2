@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <link rel="stylesheet" href="/static/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
+    <title>RL Stats</title>
+</head>
+<body>
+<section class="m-2 rounded-lg bg-black/70">
+    <div class="rounded-lg bg-gradient-to-b from-blue-700/40 to-orange-700/40 p-4 text-white">
+        <div class="jhs-text-baseline grid  grid-cols-[50px_2fr_repeat(5,_minmax(75px,_1fr))] grid-rows-3">
+            <div class="font-['Jura'] text-4xl jhs-text-shadow-blue-lg" id="team_1_score">0</div>
+            <div class="font-['Jura'] text-4xl text-blue-400/90 jhs-text-shadow-blue w-80">BLUE</div>
+            <div class="stat_header">SCORE</div>
+            <div class="stat_header">GOALS</div>
+            <div class="stat_header">ASSISTS</div>
+            <div class="stat_header">SAVES</div>
+            <div class="stat_header">SHOTS</div>
+            <div class="text-2xl font-['Jura'] col-start-2" id="player_t1_p1_name"></div>
+            <div class="text-2xl font-['Jura']" id="player_t1_p1_score"></div>
+            <div class="text-2xl font-['Jura']" id="player_t1_p1_goals"></div>
+            <div class="text-2xl font-['Jura']" id="player_t1_p1_assists"></div>
+            <div class="text-2xl font-['Jura']" id="player_t1_p1_saves"></div>
+            <div class="text-2xl font-['Jura']" id="player_t1_p1_shots"></div>
+
+            <div class="text-2xl font-['Jura'] col-start-2" id="player_t1_p2_name"></div>
+            <div class="text-2xl font-['Jura']" id="player_t1_p2_score"></div>
+            <div class="text-2xl font-['Jura']" id="player_t1_p2_goals"></div>
+            <div class="text-2xl font-['Jura']" id="player_t1_p2_assists"></div>
+            <div class="text-2xl font-['Jura']" id="player_t1_p2_saves"></div>
+            <div class="text-2xl font-['Jura']" id="player_t1_p2_shots"></div>
+        </div>
+        <div class="pt-4 jhs-text-baseline grid  grid-cols-[50px_2fr_repeat(5,_minmax(75px,_1fr))] grid-rows-3">
+            <div class="font-['Jura'] text-4xl jhs-text-shadow-orange-lg" id="team_2_score">0</div>
+            <div class="font-['Jura'] text-4xl text-orange-400/90 jhs-text-orange-blue w-80">ORANGE</div>
+            <div class="stat_header">SCORE</div>
+            <div class="stat_header">GOALS</div>
+            <div class="stat_header">ASSISTS</div>
+            <div class="stat_header">SAVES</div>
+            <div class="stat_header">SHOTS</div>
+            <div class="text-2xl font-['Jura'] col-start-2" id="player_t2_p1_name"></div>
+            <div class="text-2xl font-['Jura']" id="player_t2_p1_score"></div>
+            <div class="text-2xl font-['Jura']" id="player_t2_p1_goals"></div>
+            <div class="text-2xl font-['Jura']" id="player_t2_p1_assists"></div>
+            <div class="text-2xl font-['Jura']" id="player_t2_p1_saves"></div>
+            <div class="text-2xl font-['Jura']" id="player_t2_p1_shots"></div>
+
+            <div class="text-2xl font-['Jura'] col-start-2" id="player_t2_p2_name"></div>
+            <div class="text-2xl font-['Jura']" id="player_t2_p2_score"></div>
+            <div class="text-2xl font-['Jura']" id="player_t2_p2_goals"></div>
+            <div class="text-2xl font-['Jura']" id="player_t2_p2_assists"></div>
+            <div class="text-2xl font-['Jura']" id="player_t2_p2_saves"></div>
+            <div class="text-2xl font-['Jura']" id="player_t2_p2_shots"></div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="bg-black">
+        <canvas id="myChart"></canvas>
+    </div>
+</section>
+<script>
+    let previous_scores = [0, 0, 0, 0]
+    function updateFields(data) {
+        let t1_player = 1
+        let t2_player = 1
+        if (data.players) {
+            let player_names = Array()
+            let player_scores = Array()
+            for (let i in data.players) {
+                let player = data.players[i]
+                if (data.is_roster_locked) {
+                    player_names.push(player.name)
+                    player_scores.push(player.score)
+                }
+                if (player.team === 1) {
+                    eval('player_t1_p' + t1_player + '_name.innerHTML = player.name')
+                    eval('player_t1_p' + t1_player + '_score.innerHTML = player.score')
+                    eval('player_t1_p' + t1_player + '_goals.innerHTML = player.goals')
+                    team_1_score.innerHTML = player.team_score
+                    t1_player++
+                } else {
+                    eval('player_t2_p' + t2_player + '_name.innerHTML = player.name')
+                    eval('player_t2_p' + t2_player + '_score.innerHTML = player.score')
+                    eval('player_t2_p' + t2_player + '_goals.innerHTML = player.goals')
+                    team_2_score.innerHTML = player.team_score
+                    t2_player++
+                }
+            }
+        } else {
+            resetFields()
+        }
+    }
+
+    function resetFields() {
+        let team = 1
+        let player = 1
+        for (let i = team; i <= 2; i++) {
+            for (let n = player; n <= 2; n++) {
+                eval('player_t' + i + '_p' + n + '_name.innerHTML = ""')
+                eval('player_t' + i + '_p' + n + '_score.innerHTML = ""')
+                eval('player_t' + i + '_p' + n + '_goals.innerHTML = ""')
+                team_1_score.innerHTML = 0
+            }
+        }
+    }
+
+</script>
+<script>
+    const labels = [];
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Player 1',
+            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: [],
+            tension: 0.3
+        },
+        {
+            label: 'Player 2',
+            backgroundColor: 'rgb(64,132,0)',
+            borderColor: 'rgb(64,132,0)',
+            data: [],
+            tension: 0.3
+        },
+        {
+            label: 'Player 3',
+            backgroundColor: 'rgb(0,46,132)',
+            borderColor: 'rgb(0,46,132)',
+            data: [],
+            tension: 0.3
+        },
+        {
+            label: 'Player 4',
+            backgroundColor: 'rgb(255,241,123)',
+            borderColor: 'rgb(255,241,123)',
+            data: [],
+            tension: 0.3
+        }
+        ]
+    };
+
+    const config = {
+        type: 'line',
+        data: data,
+        options: {
+            scales : {
+                x: {
+                    type: 'time'
+                }
+            }
+        }
+    };
+    const myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+    );
+
+    const source = new EventSource("/score_data");
+    source.onmessage = function (event) {
+        const timestamp = Date.now()
+        console.log("adding timestamp")
+        console.log("Pushing an event: " + event.data)
+        const data = JSON.parse(event.data);
+        myChart.data.labels.push(timestamp)
+        myChart.data.datasets[data.index].data.push({
+            x: timestamp,
+            y: data.score
+        })
+        myChart.update()
+    }
+
+    const roster_source = new EventSource("/roster_data")
+    let saved_roster = null
+    source.onmessage = function (event) {
+        console.log("Got roster")
+        saved_roster = JSON.parse(event.data)
+        saved_roster.forEach(player => {
+            myChart.data.labels[player.index] = player.name
+        })
+    }
+
+</script>
+</body>
+</html>

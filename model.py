@@ -231,10 +231,13 @@ class Match(BaseModel):
     @property
     def roster(self):
         roster: List[Dict] = []
+        if not self.players:
+            return roster
         for player in self.players:
             roster.append({
                 "name": player.name,
-                "index": player.index
+                "index": player.index,
+                "team": player.team
             })
         return roster
 

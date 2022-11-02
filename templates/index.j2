@@ -112,9 +112,7 @@
 
 </script>
 <script>
-    const labels = [];
     const data = {
-        labels: labels,
         datasets: [{
             label: 'Player 1',
             backgroundColor: 'rgb(255, 99, 132)',
@@ -152,23 +150,46 @@
         options: {
             scales : {
                 x: {
-                    type: 'time'
+                    type: 'time',
+                    ticks: {
+                        source: 'data', // <-- change it to have a different alignment of ticks
+                        callback: function (value, index, ticks) {
+                            if (index > 0) {
+                                const first = ticks[0].value;
+                                const date = ticks[index].value;
+                                // in minutes
+                                const diff = Math.round((date - first) / 60000);
+                                if (!ticks.includes(diff)) {
+                                    ticks.push(diff);
+                                    return diff + ':00';
+                                }
+                                return '';
+                            }
+                            ticks.push(0);
+                            return '0:00';
+                        }
+                    },
+                    time: {
+                        //unit: 'minute' // <-- removed it
+                    },
+
                 }
             }
         }
     };
-    const myChart = new Chart(
-        document.getElementById('myChart'),
-        config
-    );
+    let myChart = newChart()
+
+    function newChart() {
+        return new Chart(
+            document.getElementById('myChart'),
+            config
+        )
+    }
 
     const source = new EventSource("/score_data");
     source.onmessage = function (event) {
         const timestamp = Date.now()
-        console.log("adding timestamp")
-        console.log("Pushing an event: " + event.data)
         const data = JSON.parse(event.data);
-        myChart.data.labels.push(timestamp)
         myChart.data.datasets[data.index].data.push({
             x: timestamp,
             y: data.score
@@ -177,12 +198,17 @@
     }
 
     const roster_source = new EventSource("/roster_data")
-    let saved_roster = null
-    source.onmessage = function (event) {
-        console.log("Got roster")
-        saved_roster = JSON.parse(event.data)
-        saved_roster.forEach(player => {
-            myChart.data.labels[player.index] = player.name
+    let parsed_roster = null
+    roster_source.onmessage = function (event) {
+        const theChart = Chart.getChart('myChart')
+        theChart.destroy()
+        myChart = newChart()
+        console.log("Got roster: " + event.data)
+        parsed_roster = JSON.parse(event.data)
+        console.log("Parsed Roster " + JSON.stringify(parsed_roster))
+        parsed_roster.forEach(player => {
+            console.log("Adding label for player: " + JSON.stringify(player))
+            myChart.data.datasets[player.index].label = player.name
         })
     }
 

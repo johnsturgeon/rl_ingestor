@@ -1,0 +1,3645 @@
+[{
+    "event_name": "pseudo_match_id",
+    "post_data": {
+        "timestamp": 1667510210,
+        "name": "pseudo_match_id",
+        "data": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "ranked",
+    "post_data": {
+        "timestamp": 1667510210,
+        "name": "ranked",
+        "data": null,
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "matchType",
+    "post_data": {
+        "timestamp": 1667510210,
+        "name": "matchType",
+        "data": "Online",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510210,
+        "name": "gameState",
+        "data": "WaitingForPlayers",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameType",
+    "post_data": {
+        "timestamp": 1667510210,
+        "name": "gameType",
+        "data": "Doubles",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameMode",
+    "post_data": {
+        "timestamp": 1667510210,
+        "name": "gameMode",
+        "data": "Soccar",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "server_info",
+    "post_data": {
+        "timestamp": 1667510210,
+        "name": "server_info",
+        "data": "USW5362359851806666794",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "playerJoined",
+    "post_data": {
+        "timestamp": 1667510219,
+        "name": "playerJoined",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 0,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "rosterChange",
+    "post_data": {
+        "timestamp": 1667510219,
+        "name": "rosterChange",
+        "data": {
+            "roster": [
+                {
+                    "steam_id": 76561198218638350,
+                    "score": 0,
+                    "goals": 0,
+                    "name": "GoshDarnedHero",
+                    "state": 0,
+                    "team_score": 0,
+                    "team": 2,
+                    "local": 1,
+                    "index": 0
+                },
+                {
+                    "steam_id": 2535406038371912,
+                    "score": 0,
+                    "goals": 0,
+                    "name": "Purifcation",
+                    "state": 0,
+                    "team_score": 0,
+                    "team": 1,
+                    "local": 0,
+                    "index": 1
+                },
+                {
+                    "steam_id": 3595826236150419500,
+                    "score": 0,
+                    "goals": 0,
+                    "name": "dark-skinboy",
+                    "state": 0,
+                    "team_score": 0,
+                    "team": 1,
+                    "local": 0,
+                    "index": 2
+                }
+            ]
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "playerJoined",
+    "post_data": {
+        "timestamp": 1667510219,
+        "name": "playerJoined",
+        "data": {
+            "steam_id": 3595826236150419500,
+            "score": 0,
+            "goals": 0,
+            "name": "dark-skinboy",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "rosterChange",
+    "post_data": {
+        "timestamp": 1667510219,
+        "name": "rosterChange",
+        "data": {
+            "roster": [
+                {
+                    "steam_id": 76561198218638350,
+                    "score": 0,
+                    "goals": 0,
+                    "name": "GoshDarnedHero",
+                    "state": 0,
+                    "team_score": 0,
+                    "team": 2,
+                    "local": 1,
+                    "index": 0
+                },
+                {
+                    "steam_id": 2535406038371912,
+                    "score": 0,
+                    "goals": 0,
+                    "name": "Purifcation",
+                    "state": 0,
+                    "team_score": 0,
+                    "team": 1,
+                    "local": 0,
+                    "index": 1
+                },
+                {
+                    "steam_id": 3595826236150419500,
+                    "score": 0,
+                    "goals": 0,
+                    "name": "dark-skinboy",
+                    "state": 0,
+                    "team_score": 0,
+                    "team": 1,
+                    "local": 0,
+                    "index": 2
+                }
+            ]
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "rosterChange",
+    "post_data": {
+        "timestamp": 1667510221,
+        "name": "rosterChange",
+        "data": {
+            "roster": [
+                {
+                    "steam_id": 76561198218638350,
+                    "score": 0,
+                    "goals": 0,
+                    "name": "GoshDarnedHero",
+                    "state": 0,
+                    "team_score": 0,
+                    "team": 2,
+                    "local": 1,
+                    "index": 0
+                },
+                {
+                    "steam_id": 2535447916435642,
+                    "score": 0,
+                    "goals": 0,
+                    "name": "OG GrumpySmurf",
+                    "state": 0,
+                    "team_score": 0,
+                    "team": 2,
+                    "local": 0,
+                    "index": 1
+                },
+                {
+                    "steam_id": 2535406038371912,
+                    "score": 0,
+                    "goals": 0,
+                    "name": "Purifcation",
+                    "state": 0,
+                    "team_score": 0,
+                    "team": 1,
+                    "local": 0,
+                    "index": 2
+                },
+                {
+                    "steam_id": 3595826236150419500,
+                    "score": 0,
+                    "goals": 0,
+                    "name": "dark-skinboy",
+                    "state": 0,
+                    "team_score": 0,
+                    "team": 1,
+                    "local": 0,
+                    "index": 3
+                }
+            ]
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "playerJoined",
+    "post_data": {
+        "timestamp": 1667510221,
+        "name": "playerJoined",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 0,
+            "goals": 0,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 0,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510224,
+        "name": "gameState",
+        "data": "Countdown",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510228,
+        "name": "gameState",
+        "data": "Active",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510229,
+        "name": "action_points",
+        "data": "First Touch",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510231,
+        "name": "score",
+        "data": {
+            "steam_id": 3595826236150419500,
+            "score": 2,
+            "goals": 0,
+            "name": "dark-skinboy",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 3
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510232,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 2,
+            "goals": 0,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 0,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510234,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 2,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510237,
+        "name": "action_points",
+        "data": "Shot On Goal",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510237,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 12,
+            "goals": 0,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 0,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510242,
+        "name": "action_points",
+        "data": "Assist",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510242,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 62,
+            "goals": 0,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 1,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510242,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 114,
+            "goals": 1,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 1,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510242,
+        "name": "gameState",
+        "data": "PostGoalScored",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "teamGoal",
+    "post_data": {
+        "timestamp": 1667510242,
+        "name": "teamGoal",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 114,
+            "goals": 1,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 1,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510246,
+        "name": "gameState",
+        "data": "ReplayPlayback",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510256,
+        "name": "gameState",
+        "data": "Countdown",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510260,
+        "name": "gameState",
+        "data": "Active",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510262,
+        "name": "action_points",
+        "data": "First Touch",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510263,
+        "name": "score",
+        "data": {
+            "steam_id": 3595826236150419500,
+            "score": 4,
+            "goals": 0,
+            "name": "dark-skinboy",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 3
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510269,
+        "name": "score",
+        "data": {
+            "steam_id": 3595826236150419500,
+            "score": 6,
+            "goals": 0,
+            "name": "dark-skinboy",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 3
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510271,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 64,
+            "goals": 0,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 1,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510273,
+        "name": "action_points",
+        "data": "Shot On Goal",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510273,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 74,
+            "goals": 0,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 1,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510274,
+        "name": "action_points",
+        "data": "Long Shot",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510274,
+        "name": "action_points",
+        "data": "Goal",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510275,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 194,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510275,
+        "name": "gameState",
+        "data": "PostGoalScored",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "teamGoal",
+    "post_data": {
+        "timestamp": 1667510275,
+        "name": "teamGoal",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 194,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "goal",
+    "post_data": {
+        "timestamp": 1667510275,
+        "name": "goal",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 194,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510278,
+        "name": "gameState",
+        "data": "ReplayPlayback",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510288,
+        "name": "gameState",
+        "data": "Countdown",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510292,
+        "name": "gameState",
+        "data": "Active",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510294,
+        "name": "action_points",
+        "data": "First Touch",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510296,
+        "name": "action_points",
+        "data": "Center Ball",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510296,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 204,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510296,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 24,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510299,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 116,
+            "goals": 1,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510302,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 126,
+            "goals": 1,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510304,
+        "name": "action_points",
+        "data": "Shot On Goal",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510304,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 214,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510305,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 216,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510308,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 26,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510310,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 46,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510310,
+        "name": "score",
+        "data": {
+            "steam_id": 3595826236150419500,
+            "score": 8,
+            "goals": 0,
+            "name": "dark-skinboy",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 3
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510313,
+        "name": "score",
+        "data": {
+            "steam_id": 3595826236150419500,
+            "score": 10,
+            "goals": 0,
+            "name": "dark-skinboy",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 3
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510315,
+        "name": "score",
+        "data": {
+            "steam_id": 3595826236150419500,
+            "score": 20,
+            "goals": 0,
+            "name": "dark-skinboy",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 3
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510316,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 128,
+            "goals": 1,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510317,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 148,
+            "goals": 1,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510320,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 150,
+            "goals": 1,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510323,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 48,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510325,
+        "name": "score",
+        "data": {
+            "steam_id": 3595826236150419500,
+            "score": 22,
+            "goals": 0,
+            "name": "dark-skinboy",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 3
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510327,
+        "name": "score",
+        "data": {
+            "steam_id": 3595826236150419500,
+            "score": 32,
+            "goals": 0,
+            "name": "dark-skinboy",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 3
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510329,
+        "name": "score",
+        "data": {
+            "steam_id": 3595826236150419500,
+            "score": 44,
+            "goals": 0,
+            "name": "dark-skinboy",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 3
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510330,
+        "name": "action_points",
+        "data": "Clear Goal",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510330,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 238,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510332,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 50,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510335,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 152,
+            "goals": 1,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510341,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 52,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510343,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 240,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510347,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 54,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510348,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 242,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510352,
+        "name": "action_points",
+        "data": "Center Ball",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510353,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 254,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510355,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 56,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510356,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 76,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510358,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 78,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510361,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 154,
+            "goals": 1,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510364,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 80,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510366,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 90,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510367,
+        "name": "score",
+        "data": {
+            "steam_id": 3595826236150419500,
+            "score": 46,
+            "goals": 0,
+            "name": "dark-skinboy",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 3
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510371,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 156,
+            "goals": 1,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510374,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 158,
+            "goals": 1,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510376,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 256,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510377,
+        "name": "action_points",
+        "data": "Center Ball",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510377,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 266,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510378,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 268,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 2,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510379,
+        "name": "action_points",
+        "data": "Assist",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510379,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 318,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510379,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 270,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "teamGoal",
+    "post_data": {
+        "timestamp": 1667510379,
+        "name": "teamGoal",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 270,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510379,
+        "name": "gameState",
+        "data": "PostGoalScored",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510383,
+        "name": "gameState",
+        "data": "ReplayPlayback",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510392,
+        "name": "gameState",
+        "data": "Countdown",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510396,
+        "name": "gameState",
+        "data": "Active",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510400,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 272,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510401,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 100,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510404,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 112,
+            "goals": 0,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 0,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510405,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 212,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510405,
+        "name": "gameState",
+        "data": "PostGoalScored",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "opposingTeamGoal",
+    "post_data": {
+        "timestamp": 1667510405,
+        "name": "opposingTeamGoal",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 212,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510408,
+        "name": "gameState",
+        "data": "ReplayPlayback",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510418,
+        "name": "gameState",
+        "data": "Countdown",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510422,
+        "name": "gameState",
+        "data": "Active",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510425,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 274,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "rosterChange",
+    "post_data": {
+        "timestamp": 1667510427,
+        "name": "rosterChange",
+        "data": {
+            "roster": [
+                {
+                    "steam_id": 76561198218638350,
+                    "score": 318,
+                    "goals": 1,
+                    "name": "GoshDarnedHero",
+                    "state": 0,
+                    "team_score": 3,
+                    "team": 2,
+                    "local": 1,
+                    "index": 0
+                },
+                {
+                    "steam_id": 2535447916435642,
+                    "score": 274,
+                    "goals": 2,
+                    "name": "OG GrumpySmurf",
+                    "state": 0,
+                    "team_score": 3,
+                    "team": 2,
+                    "local": 0,
+                    "index": 1
+                },
+                {
+                    "steam_id": 2535406038371912,
+                    "score": 212,
+                    "goals": 1,
+                    "name": "Purifcation",
+                    "state": 0,
+                    "team_score": 1,
+                    "team": 1,
+                    "local": 0,
+                    "index": 2
+                }
+            ]
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "playerLeft",
+    "post_data": {
+        "timestamp": 1667510427,
+        "name": "playerLeft",
+        "data": {
+            "steam_id": 3595826236150419500,
+            "score": 46,
+            "goals": 0,
+            "name": "dark-skinboy",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 3
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510429,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 276,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510430,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 286,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510431,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 234,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510435,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 320,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510437,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 236,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510443,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 322,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510452,
+        "name": "action_points",
+        "data": "Save",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510453,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 372,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510453,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 248,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510458,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 374,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510459,
+        "name": "action_points",
+        "data": "Center Ball",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510459,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 384,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510460,
+        "name": "action_points",
+        "data": "Shot On Goal",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510460,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 394,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510461,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 396,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510461,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 323,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510463,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 288,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510464,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 298,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510466,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 325,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510468,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 300,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510469,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 302,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510471,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 304,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510472,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 314,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510473,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 316,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510474,
+        "name": "action_points",
+        "data": "Shot On Goal",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510474,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 408,
+            "goals": 1,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 3,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510476,
+        "name": "action_points",
+        "data": "Goal",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510476,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 510,
+            "goals": 2,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 4,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "goal",
+    "post_data": {
+        "timestamp": 1667510476,
+        "name": "goal",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 510,
+            "goals": 2,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 4,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "teamGoal",
+    "post_data": {
+        "timestamp": 1667510476,
+        "name": "teamGoal",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 510,
+            "goals": 2,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 4,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510476,
+        "name": "gameState",
+        "data": "PostGoalScored",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510477,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 366,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 4,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510480,
+        "name": "gameState",
+        "data": "ReplayPlayback",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510490,
+        "name": "gameState",
+        "data": "Countdown",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510494,
+        "name": "gameState",
+        "data": "Active",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510496,
+        "name": "action_points",
+        "data": "First Touch",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510497,
+        "name": "action_points",
+        "data": "Shot On Goal",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510497,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 520,
+            "goals": 2,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 4,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510498,
+        "name": "action_points",
+        "data": "Goal",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510498,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 645,
+            "goals": 3,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 5,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "goal",
+    "post_data": {
+        "timestamp": 1667510498,
+        "name": "goal",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 645,
+            "goals": 3,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 5,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510498,
+        "name": "gameState",
+        "data": "PostGoalScored",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "teamGoal",
+    "post_data": {
+        "timestamp": 1667510498,
+        "name": "teamGoal",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 645,
+            "goals": 3,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 5,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510502,
+        "name": "gameState",
+        "data": "ReplayPlayback",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510511,
+        "name": "gameState",
+        "data": "Countdown",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510515,
+        "name": "gameState",
+        "data": "Active",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510518,
+        "name": "action_points",
+        "data": "First Touch",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510519,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 327,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510523,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 368,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 5,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510527,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 378,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 5,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510528,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 390,
+            "goals": 2,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 5,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510529,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 515,
+            "goals": 3,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 6,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "teamGoal",
+    "post_data": {
+        "timestamp": 1667510529,
+        "name": "teamGoal",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 515,
+            "goals": 3,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 6,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510529,
+        "name": "gameState",
+        "data": "PostGoalScored",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510532,
+        "name": "gameState",
+        "data": "ReplayPlayback",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510543,
+        "name": "gameState",
+        "data": "Countdown",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510546,
+        "name": "gameState",
+        "data": "Active",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510549,
+        "name": "action_points",
+        "data": "First Touch",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510550,
+        "name": "action_points",
+        "data": "Center Ball",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510550,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 655,
+            "goals": 3,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 6,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510551,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 349,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510555,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 517,
+            "goals": 3,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 6,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510557,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 527,
+            "goals": 3,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 6,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510558,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 627,
+            "goals": 4,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 7,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "teamGoal",
+    "post_data": {
+        "timestamp": 1667510558,
+        "name": "teamGoal",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 627,
+            "goals": 4,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 7,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510558,
+        "name": "gameState",
+        "data": "PostGoalScored",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510562,
+        "name": "gameState",
+        "data": "ReplayPlayback",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510572,
+        "name": "gameState",
+        "data": "Countdown",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510576,
+        "name": "gameState",
+        "data": "Active",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510579,
+        "name": "action_points",
+        "data": "First Touch",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510581,
+        "name": "action_points",
+        "data": "Shot On Goal",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510581,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 665,
+            "goals": 3,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 7,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510582,
+        "name": "action_points",
+        "data": "Goal",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510582,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 767,
+            "goals": 4,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "goal",
+    "post_data": {
+        "timestamp": 1667510582,
+        "name": "goal",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 767,
+            "goals": 4,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "teamGoal",
+    "post_data": {
+        "timestamp": 1667510582,
+        "name": "teamGoal",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 767,
+            "goals": 4,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510582,
+        "name": "gameState",
+        "data": "PostGoalScored",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510586,
+        "name": "gameState",
+        "data": "ReplayPlayback",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510596,
+        "name": "gameState",
+        "data": "Countdown",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510600,
+        "name": "gameState",
+        "data": "Active",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510603,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 769,
+            "goals": 4,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510607,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 351,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510609,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 361,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510611,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 647,
+            "goals": 4,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510611,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 363,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510613,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 365,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510615,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 657,
+            "goals": 4,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510617,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 771,
+            "goals": 4,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510617,
+        "name": "action_points",
+        "data": "Center Ball",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510618,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 781,
+            "goals": 4,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510621,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 367,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510622,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 387,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510626,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 389,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510628,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 659,
+            "goals": 4,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510634,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 671,
+            "goals": 4,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510635,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 409,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510639,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 411,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510640,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 673,
+            "goals": 4,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510643,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 675,
+            "goals": 4,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510646,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 685,
+            "goals": 4,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510646,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 413,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510648,
+        "name": "score",
+        "data": {
+            "steam_id": 2535406038371912,
+            "score": 488,
+            "goals": 1,
+            "name": "Purifcation",
+            "state": 0,
+            "team_score": 1,
+            "team": 1,
+            "local": 0,
+            "index": 2
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510648,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 697,
+            "goals": 4,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510652,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 783,
+            "goals": 4,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510654,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 785,
+            "goals": 4,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510656,
+        "name": "action_points",
+        "data": "Center Ball",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510656,
+        "name": "action_points",
+        "data": "Shot On Goal",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510656,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 805,
+            "goals": 4,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 8,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "action_points",
+    "post_data": {
+        "timestamp": 1667510657,
+        "name": "action_points",
+        "data": "Assist",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510657,
+        "name": "score",
+        "data": {
+            "steam_id": 76561198218638350,
+            "score": 880,
+            "goals": 4,
+            "name": "GoshDarnedHero",
+            "state": 0,
+            "team_score": 9,
+            "team": 2,
+            "local": 1,
+            "index": 0
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "score",
+    "post_data": {
+        "timestamp": 1667510657,
+        "name": "score",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 799,
+            "goals": 5,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 9,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "teamGoal",
+    "post_data": {
+        "timestamp": 1667510657,
+        "name": "teamGoal",
+        "data": {
+            "steam_id": 2535447916435642,
+            "score": 799,
+            "goals": 5,
+            "name": "OG GrumpySmurf",
+            "state": 0,
+            "team_score": 9,
+            "team": 2,
+            "local": 0,
+            "index": 1
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510657,
+        "name": "gameState",
+        "data": "PostGoalScored",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510661,
+        "name": "gameState",
+        "data": "ReplayPlayback",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510671,
+        "name": "gameState",
+        "data": "PrePodiumSpotlight",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510674,
+        "name": "gameState",
+        "data": "PodiumSpotlight",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "victory",
+    "post_data": {
+        "timestamp": 1667510674,
+        "name": "victory",
+        "data": {
+            "team_score": 9
+        },
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510679,
+        "name": "gameState",
+        "data": "Finished",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+},
+{
+    "event_name": "pseudo_match_id",
+    "post_data": {
+        "timestamp": 1667510688,
+        "name": "pseudo_match_id",
+        "data": null,
+        "match_id": ""
+    }
+},
+{
+    "event_name": "matchType",
+    "post_data": {
+        "timestamp": 1667510688,
+        "name": "matchType",
+        "data": "Lobby",
+        "match_id": ""
+    }
+},
+{
+    "event_name": "ranked",
+    "post_data": {
+        "timestamp": 1667510688,
+        "name": "ranked",
+        "data": null,
+        "match_id": ""
+    }
+},
+{
+    "event_name": "gameState",
+    "post_data": {
+        "timestamp": 1667510688,
+        "name": "gameState",
+        "data": "Unknown",
+        "match_id": ""
+    }
+},
+{
+    "event_name": "gameMode",
+    "post_data": {
+        "timestamp": 1667510688,
+        "name": "gameMode",
+        "data": "Unknown",
+        "match_id": ""
+    }
+},
+{
+    "event_name": "gameType",
+    "post_data": {
+        "timestamp": 1667510688,
+        "name": "gameType",
+        "data": null,
+        "match_id": ""
+    }
+},
+{
+    "event_name": "matchEnd",
+    "post_data": {
+        "timestamp": 1667510688,
+        "name": "matchEnd",
+        "data": "",
+        "match_id": "9c9ce89b-ab3c-4e50-b1bc-e15e467ba8a4"
+    }
+}
+]

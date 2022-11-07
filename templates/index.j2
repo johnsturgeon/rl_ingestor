@@ -3,6 +3,7 @@
 <head>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/static/model.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
     <link rel="stylesheet" href="/static/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,39 +60,26 @@
         </div>
     </div>
 </section>
-<section>
-    <div class="bg-black">
-        <canvas id="myChart"></canvas>
-    </div>
-</section>
 <script>
     let previous_scores = [0, 0, 0, 0]
-    function updateFields(data) {
-        let t1_player = 1
-        let t2_player = 1
-        if (data.players) {
-            let player_names = Array()
-            let player_scores = Array()
-            for (let i in data.players) {
-                let player = data.players[i]
-                if (data.is_roster_locked) {
-                    player_names.push(player.name)
-                    player_scores.push(player.score)
-                }
-                if (player.team === 1) {
-                    eval('player_t1_p' + t1_player + '_name.innerHTML = player.name')
-                    eval('player_t1_p' + t1_player + '_score.innerHTML = player.score')
-                    eval('player_t1_p' + t1_player + '_goals.innerHTML = player.goals')
-                    team_1_score.innerHTML = player.team_score
-                    t1_player++
-                } else {
-                    eval('player_t2_p' + t2_player + '_name.innerHTML = player.name')
-                    eval('player_t2_p' + t2_player + '_score.innerHTML = player.score')
-                    eval('player_t2_p' + t2_player + '_goals.innerHTML = player.goals')
-                    team_2_score.innerHTML = player.team_score
-                    t2_player++
-                }
-            }
+    function updateFields(roster) {
+        if (roster) {
+            let player_index = 1
+            roster.getTeam('Blue').forEach(player => {
+                eval('player_t1_p' + player_index + '_name.innerHTML = player.name')
+                eval('player_t1_p' + player_index + '_score.innerHTML = player.score')
+                eval('player_t1_p' + player_index + '_goals.innerHTML = player.goals')
+                player_index++
+            })
+            team_1_score.innerHTML = roster.getTeamGoals('Blue')
+            player_index = 1
+            roster.getTeam('Orange').forEach(player => {
+                eval('player_t2_p' + player_index + '_name.innerHTML = player.name')
+                eval('player_t2_p' + player_index + '_score.innerHTML = player.score')
+                eval('player_t2_p' + player_index + '_goals.innerHTML = player.goals')
+                player_index++
+            })
+            team_2_score.innerHTML = roster.getTeamGoals('Orange')
         } else {
             resetFields()
         }
@@ -112,105 +100,24 @@
 
 </script>
 <script>
-    const data = {
-        datasets: [{
-            label: 'Player 1',
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
-            data: [],
-            tension: 0.3
-        },
-        {
-            label: 'Player 2',
-            backgroundColor: 'rgb(64,132,0)',
-            borderColor: 'rgb(64,132,0)',
-            data: [],
-            tension: 0.3
-        },
-        {
-            label: 'Player 3',
-            backgroundColor: 'rgb(0,46,132)',
-            borderColor: 'rgb(0,46,132)',
-            data: [],
-            tension: 0.3
-        },
-        {
-            label: 'Player 4',
-            backgroundColor: 'rgb(255,241,123)',
-            borderColor: 'rgb(255,241,123)',
-            data: [],
-            tension: 0.3
-        }
-        ]
-    };
 
-    const config = {
-        type: 'line',
-        data: data,
-        options: {
-            scales : {
-                x: {
-                    type: 'time',
-                    ticks: {
-                        source: 'data', // <-- change it to have a different alignment of ticks
-                        callback: function (value, index, ticks) {
-                            if (index > 0) {
-                                const first = ticks[0].value;
-                                const date = ticks[index].value;
-                                // in minutes
-                                const diff = Math.round((date - first) / 60000);
-                                if (!ticks.includes(diff)) {
-                                    ticks.push(diff);
-                                    return diff + ':00';
-                                }
-                                return '';
-                            }
-                            ticks.push(0);
-                            return '0:00';
-                        }
-                    },
-                    time: {
-                        //unit: 'minute' // <-- removed it
-                    },
+    let roster = null
 
+    function fetchRoster() {
+        fetch("{{ url_for('roster_data') }}")
+            .then(res => res.json())
+            .then(data => {
+                if (data) {
+                    roster = new Roster(data)
                 }
-            }
-        }
-    };
-    let myChart = newChart()
-
-    function newChart() {
-        return new Chart(
-            document.getElementById('myChart'),
-            config
-        )
+                updateFields(roster)
+            })
     }
 
-    const source = new EventSource("/score_data");
-    source.onmessage = function (event) {
-        const timestamp = Date.now()
-        const data = JSON.parse(event.data);
-        myChart.data.datasets[data.index].data.push({
-            x: timestamp,
-            y: data.score
-        })
-        myChart.update()
-    }
-
-    const roster_source = new EventSource("/roster_data")
-    let parsed_roster = null
-    roster_source.onmessage = function (event) {
-        const theChart = Chart.getChart('myChart')
-        theChart.destroy()
-        myChart = newChart()
-        console.log("Got roster: " + event.data)
-        parsed_roster = JSON.parse(event.data)
-        console.log("Parsed Roster " + JSON.stringify(parsed_roster))
-        parsed_roster.forEach(player => {
-            console.log("Adding label for player: " + JSON.stringify(player))
-            myChart.data.datasets[player.index].label = player.name
-        })
-    }
+    window.addEventListener('load', function () {
+        const fetchInterval = 1000
+        setInterval(fetchRoster, fetchInterval)
+    })
 
 </script>
 </body>

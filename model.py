@@ -23,6 +23,7 @@ async def init_db():
         GameType,
         Goal,
         MatchEnd,
+        MatchStart,
         MatchType,
         OpposingTeamGoal,
         PlayerJoined,
@@ -207,6 +208,17 @@ class TrackerDailyMMR(Document):
         name = "tracker_daily_mmr"
 
 
+class TrackerStats(Document):
+    timestamp: int
+    rating: int
+    tier: str
+    division: str
+    icon_url: str
+
+    class Settings:
+        name = "tracker_stats"
+
+
 class Match(BaseModel):
     match_id: str
     game_mode: Optional[str]
@@ -215,39 +227,9 @@ class Match(BaseModel):
     roster_sent: Optional[bool] = False
     players: Optional[List[Player]]
     action_points: Optional[List[ActionPoints]]
-    player_scores: Optional[List[Dict]] = []
 
-    @property
-    def my_scores(self):
-        return_scores = []
-        score: Dict
-        for score in self.player_scores:
-            player: Player = score['player']
-            p_score: int = player.score
-            if player.name == 'GoshDarnedHero':
-                return_scores.append(p_score)
-        return return_scores
-
-    @property
-    def roster(self):
-        roster: List[Dict] = []
-        if not self.players:
-            return roster
-        for player in self.players:
-            roster.append({
-                "name": player.name,
-                "index": player.index,
-                "team": player.team
-            })
-        return roster
-
-    def add_player_score(self, player: Player, timestamp: int):
+    def add_player_score(self, player: Player):
         new_roster = []
-        self.player_scores.append({
-            "timestamp": timestamp,
-            "index": player.index,
-            "score": player.score
-        })
         for current_player in self.players:
             if player.name == current_player.name:
                 new_roster.append(player)

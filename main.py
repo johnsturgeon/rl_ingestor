@@ -1,10 +1,9 @@
 import json
-import uvicorn
-from beanie import init_beanie
-from beanie.odm.queries.find import FindOne
-from fastapi import FastAPI
-from starlette.responses import StreamingResponse
+import time
 
+import uvicorn
+from fastapi import BackgroundTasks, FastAPI
+from tracker_scraper import get_stats
 from model import *
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import Request
@@ -33,9 +32,16 @@ app.add_middleware(
 )
 
 
+async def run_main():
+    while True:
+        await get_stats()
+        await asyncio.sleep(5)
+
+
 @app.on_event("startup")
 async def start_db():
     await init_db()
+    asyncio.create_task(run_main())
 
 
 @app.get("/")
@@ -43,22 +49,40 @@ async def root(request: Request):
     return templates.TemplateResponse("index.j2",  {"request": request})
 
 
+@app.post("/bakkes")
+async def bakkes(request: Request):
+    print(f"Raw data from bakkes {await request.body()}")
+    print(f"Got message from bakkes {await request.json()}")
+    return {"result": "success"}
+
+
 @app.post("/rl_event/{event_name}")
 async def rl_event(event_name: str, event: Request):
     global current_match
     req_info = await event.json()
     new_event = None
+    # # Do this one time.. record a game so I don't have to play over and over again to get all the features
+    # post_data = {
+    #     "event_name": event_name,
+    #     "post_data": req_info
+    # }
+    # with open("one_match.json", "a") as outfile:
+    #     json.dump(post_data, outfile, indent=4)
+    #     outfile.write(",\n")
+    #
     if event_name == 'rosterChange':
         new_event = EventRosterChange(**req_info)
-        roster = new_event.data.roster
-        current_match.players = roster
+        if not current_match.is_roster_locked:
+            roster = new_event.data.roster
+            current_match.players = roster
+
     elif event_name == 'playerJoined':
         new_event = PlayerJoined(**req_info)
     elif event_name == 'playerLeft':
         new_event = PlayerLeft(**req_info)
     elif event_name == 'score':
         new_event = Score(**req_info)
-        current_match.add_player_score(new_event.data, timestamp=new_event.timestamp)
+        current_match.add_player_score(new_event.player)
     elif event_name == 'opposingTeamGoal':
         new_event = OpposingTeamGoal(**req_info)
     elif event_name == 'action_points':
@@ -80,11 +104,9 @@ async def rl_event(event_name: str, event: Request):
     elif event_name == 'gameState':
         new_event = GameState(**req_info)
         current_match.game_state = new_event.data
+        print(f"GameState: {new_event.data}")
         if new_event.data == "Active":
-            if len(current_match.roster) >= 4:
-                current_match.is_roster_locked = True
-            else:
-                print(f"Active match without full roster!")
+            current_match.is_roster_locked = True
     elif event_name == 'pseudo_match_id':
         new_event = PseudoMatchId(**req_info)
         if new_event.data == 'None':
@@ -123,60 +145,11 @@ async def rl_info(info: Request):
         outfile.write(",\n")
 
 
-@app.get("/match_data")
-async def match_data():
-    if current_match:
-        return current_match
-    else:
-        print("No match yet")
-        return {
-            "players": [{
-                "name": "GDH",
-                "score": 111,
-                "goals": 111,
-                "team_score": 2
-            }]
-        }
-
-
 @app.get("/roster_data")
 async def roster_data():
-    response = StreamingResponse(get_roster(), media_type="text/event-stream")
-    response.headers["Cache-Control"] = "no-cache"
-    response.headers["X-Accel-Buffering"] = "no"
-    return response
-
-
-async def get_roster() -> Dict:
-    while True:
-        if current_match:
-            if current_match.is_roster_locked and not current_match.roster_sent:
-                current_match.roster_sent = True
-                print(f"Sending Roster!: {current_match.roster}")
-                json_data = json.dumps(current_match.roster)
-                print(f"sending ROSTER DATA: {json_data}")
-                yield f"data:{json_data}\n\n"
-        await asyncio.sleep(1)
-
-
-@app.get("/score_data")
-async def score_data():
-    response = StreamingResponse(score_dequeue(), media_type="text/event-stream")
-    response.headers["Cache-Control"] = "no-cache"
-    response.headers["X-Accel-Buffering"] = "no"
-    return response
-
-
-async def score_dequeue() -> Dict:
-    while True:
-        if current_match:
-            if current_match.player_scores:
-                print(f"All Scores: {current_match.player_scores}")
-                score = current_match.player_scores.pop(0)
-                json_data = json.dumps(score)
-                print(f"sending JSON DATA: {json_data}")
-                yield f"data:{json_data}\n\n"
-        await asyncio.sleep(0.5)
+    if current_match and current_match.is_roster_locked:
+        return current_match.players
+    return None
 
 
 if __name__ == "__main__":
